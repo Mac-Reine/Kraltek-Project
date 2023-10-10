@@ -22,6 +22,10 @@ import serviceShape5 from '../assets/Images/services-shape.svg'
 import serviceShape6 from '../assets/Images/services-shape-3.svg'
 import finalWhite from '../assets/Images/Logo Final white.png'
 import textimonialShape from '../assets/Images/textimonial-shape.svg'
+import missionpart from '../assets/Images/about1.svg'
+import vissionpart from '../assets/Images/about2.svg'
+import missionback from '../assets/Images/about-shape-1.svg'
+import vissionback from '../assets/Images/about-shape-2.svg'
 import author1 from '../assets/Images/author-1.png'
 import author2 from '../assets/Images/author-2.png'
 import icon1 from '../assets/Images/icon.png'
@@ -128,6 +132,58 @@ function Home() {
                 </div> {/* container */}
             </section>
 
+
+            <section id="about" className="about-area pt-70">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6">
+              <div className="about-content mt-50 wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.5s">
+                <div className="section-title">
+                  <div className="line"></div>
+                  <h3 className="title">MISSION</h3>
+                </div>
+                <p className="text">At Kraltek, we are on a mission to harness the power of technology to bring about positive changes in people's lives. Our journey began with a simple yet profound belief that even the smallest problems matter, and they deserve innovative solutions. We're committed to making a meaningful impact on the world by addressing everyday challenges through cutting-edge technology. Whether it's enhancing productivity, simplifying tasks, or improving overall well-being, Kraltek is here to make a difference.
+</p>
+               
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="about-image text-center mt-50 wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0.5s">
+                <img className="mission" src={missionpart} alt="about1" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="about-shape-1">
+          <img className="mission1" src={missionback} alt="about-shape-1" />
+        </div>
+      </section>
+
+      
+      <section className="about-area pt-70">
+        <div className="about-shape-2">
+          <img classname="vision2" src={vissionback} alt="about-shape-2" />
+        </div>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 order-lg-last">
+              <div className="about-content mt-50 wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.5s">
+                <div className="section-title">
+                  <div className="line"></div>
+                  <h3 className="title">VISION</h3>
+                </div>
+                <p className="text">Our vision is a future where technology serves as a force for good, where even the most minor inconveniences have smart, efficient solutions. We envision a world where people can lead more fulfilling lives, unburdened by unnecessary challenges. Through our dedication to innovation and a relentless pursuit of excellence, we strive to be at the forefront of this transformative journey. At Kraltek, we see a brighter, more connected, and empowered world that our technology helps shape every day.</p>
+               
+              </div>
+            </div>
+            <div className="col-lg-6 order-lg-first">
+              <div className="about-image text-center mt-50 wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0.5s">
+                <img className="vision" src={vissionpart} alt="about2" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
             <section id="testimonial" className="testimonial-area pt-120">
                 <div className="container">
