@@ -49,9 +49,9 @@ function Home() {
                         <div className="row justify-content-center">
                             <div className="col-lg-8">
                                 <div className="header-hero-content text-center">
-                                    <h2 className="header-title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.5s">Lets Tech Take Care ©  </h2>
+                                    <h2 className="header-title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.5s">Where Tech Takes Care ©  </h2>
                                     <p className="text wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s">Empowering Lives by bringing positive Impact through Technology</p>
-                                    <a href="#" className="main-btn wow fadeInUp" style={{textDecoration:"none"}} data-wow-duration="1.3s" data-wow-delay="1.1s">Our Projects</a>
+                                    <a href="#features" className="main-btn wow fadeInUp" style={{textDecoration:"none"}} data-wow-duration="1.3s" data-wow-delay="1.1s">Our Projects</a>
                                 </div>
                             </div>
                         </div>
@@ -73,7 +73,7 @@ function Home() {
                 </div>
             </header>
 
-            <section id="features" className="services-area pt-120">
+            <section id="features" className="services-area pt-10">
                 <div className="container">
 
                     <div className="row justify-content-center">
@@ -130,6 +130,17 @@ function Home() {
                         </div>
                     </div> {/* row */}
                 </div> {/* container */}
+                <style jsx>{`
+        .single-services {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        
+        .services-content {
+            flex-grow: 1;
+        }
+    `}</style>
             </section>
 
 
@@ -191,7 +202,7 @@ function Home() {
                         <div className="col-lg-5">
                             <div className="section-title text-center pb-40">
                                 <div className="line m-auto"></div>
-                                <h3 className="title">OUR TEAM</h3>
+                                <h3 className="title">WHAT WE HAVE TO SAY </h3>
                             </div> {/* section title */}
                         </div>
                     </div> {/* row */}
@@ -260,6 +271,17 @@ function Home() {
                         </div>
                     </div> {/* row */}
                 </div> {/* container */}
+                <style jsx>{`
+        .single-testimonial {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        
+        .testimonial-text {
+            flex-grow: 1;
+        }
+    `}</style>
             </section>
 
             <footer id="footer" className="footer-area pt-120">

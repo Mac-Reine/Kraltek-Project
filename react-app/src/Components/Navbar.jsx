@@ -59,10 +59,10 @@ function Navbar(){
                                     <a className="page-scroll"  style={{textDecoration:"none"}} href="#home">Home</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="page-scroll" style={{textDecoration:"none"}} href="#projects">Projects</a>
+                                    <a className="page-scroll" style={{textDecoration:"none"}} href="#features">Projects</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="page-scroll"style={{textDecoration:"none"}} href="#aboutus">About us</a>
+                                    <a className="page-scroll"style={{textDecoration:"none"}} href="#about">About us</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="page-scroll"style={{textDecoration:"none"}} href="#contactus">Contact us</a>
